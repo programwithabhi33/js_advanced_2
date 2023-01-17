@@ -31,7 +31,14 @@
 //     }
 // }
 
+// abhi()();
 
 // First class functions means that you can pass a function as an argument to another function and you can return a brand new function (anonymous function) from that called function this ability in javascript or any other programming language is called first class functions 
 
-// abhi()();
+
+// Named function expression 
+// let abhi = function abc(){
+//     console.log(abc)
+//     console.log("abc function")
+// }
+// abhi()
