@@ -1,5 +1,6 @@
 console.log("start")
 
+// This means settimeout execute after the main thread is empty or call stack empty this means the settimeout callback function won't run after 2000 milliseconds but it ready to execute after 2000 milliseconds but after that the event loop watching the call stack to be empty or not if the call stack is empty the callback functions will be pushed on the callstack and then it execute 
 setTimeout(() => {
     console.log("Callback")
 }, 2000);
